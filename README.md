@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tateti en Electron
 Tateti realizado con electron 
 
@@ -22,7 +22,3 @@ npm start
 # Disfruta 
 
 pd: no es online pero podes cambiar la skin era una o la otra
-=======
-# tateti-electron
-Tateti realizado con electron 
->>>>>>> 03fc25f4b3c251d78945f086eee67993c747cfee
