@@ -1,0 +1,19 @@
+# Archivo .gitignore
+
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos temporales y de respaldo
+*.tmp
+*.bak
+*~
+
+# Ignorar la carpeta de configuración de los editores de código (por ejemplo, Visual Studio Code)
+.vscode/
+
+# Ignorar la carpeta de salida para proyectos compiladoss
+/dist
+/build

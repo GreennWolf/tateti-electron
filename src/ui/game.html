@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tateti</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="back">
+        <a href="./index.html"><img src="../../img/arrow.png"></a>
+    </div>
+    <div class="settings">
+        <button id="settings"><img class=".setting-icon" src="../../img/settings.svg"  alt=""></button>
+        <dialog id="settings-modal" class="modal">
+            <div class="modal-container">
+                <div class="modal-content">
+                    <div class="title">
+                        <h2>Select a Player</h2>
+                    </div>
+                    <div class="btn">
+                        <button id="player1-btn">Player 1</button>
+                        <button id="player2-btn">Player 2</button>
+                    </div>
+                    <div id="submenu">
+                    </div>
+                    <div class="cancel">
+                        <button id="cancel-btn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </dialog>
+    </div>
+    <div class="table">
+    </div>
+    <script type="module" src="./skins.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "tateti",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "keywords": [],
+  "author": "Wolf",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^18.1.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "promise-mysql": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.3.3"
+  },
+  "description": ""
+}
